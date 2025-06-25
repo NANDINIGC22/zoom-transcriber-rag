@@ -1,0 +1,20 @@
+# Transcription
+faster-whisper==1.0.1
+ffmpeg-python
+pydub
+
+# LangChain and OpenAI
+openai==1.46.0
+langchain==0.3.26
+langchain-core==0.3.66
+langchain-community==0.3.26
+langchain-openai==0.2.1
+langchain-text-splitters==0.3.8
+langsmith==0.3.45
+
+# ChromaDB with DuckDB backend (no hnswlib)
+chromadb[duckdb]==0.5.0
+
+# UI and env
+gradio==4.26.0
+python-dotenv==1.0.1
